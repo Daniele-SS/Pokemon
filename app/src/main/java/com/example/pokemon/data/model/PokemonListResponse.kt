@@ -1,4 +1,4 @@
-package com.example.apipokemon.data.model
+package com.example.pokemon.data.model
 
 data class PokemonListResponse(
     val results: List<PokemonEntry>

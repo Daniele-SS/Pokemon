@@ -1,4 +1,4 @@
-package com.example.apipokemon.ui.theme.Screens
+package com.example.pokemon.ui.theme.Screens
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -37,8 +37,8 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
-import com.example.apipokemon.data.model.PokemonResponse
-import com.example.apipokemon.data.remote.RetrofitInstance
+import com.example.pokemon.data.model.PokemonResponse
+import com.example.pokemon.data.remote.RetrofitInstance
 
 @Composable
 fun TelaDetalhes(

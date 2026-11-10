@@ -1,9 +1,9 @@
-package com.example.apipokemon.ui.screens
+package com.example.pokemon.ui.screens
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.apipokemon.data.model.PokemonEntry
-import com.example.apipokemon.data.remote.RetrofitInstance
+import com.example.pokemon.data.model.PokemonEntry
+import com.example.pokemon.data.remote.RetrofitInstance
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch

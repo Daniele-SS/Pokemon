@@ -1,4 +1,4 @@
-package com.example.apipokemon.ui.theme.Screens
+package com.example.pokemon.ui.theme.Screens
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -43,10 +43,10 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import coil.compose.AsyncImage
-import com.example.apipokemon.R
-import com.example.apipokemon.data.model.PokemonEntry
-import com.example.apipokemon.ui.screens.HomeViewModel
-import com.example.apipokemon.ui.screens.PokemonListUiState
+import com.example.pokemon.R
+import com.example.pokemon.data.model.PokemonEntry
+import com.example.pokemon.ui.screens.HomeViewModel
+import com.example.pokemon.ui.screens.PokemonListUiState
 
 @Composable
 fun TelaInicial(

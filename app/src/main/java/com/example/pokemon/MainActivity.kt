@@ -1,4 +1,4 @@
-package com.example.apipokemon
+package com.example.pokemon
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -12,16 +12,16 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
-import com.example.apipokemon.ui.theme.APIPokemonTheme
-import com.example.apipokemon.ui.theme.Screens.TelaDetalhes
-import com.example.apipokemon.ui.theme.Screens.TelaInicial
+import com.example.pokemon.ui.theme.PokemonTheme
+import com.example.pokemon.ui.theme.Screens.TelaDetalhes
+import com.example.pokemon.ui.theme.Screens.TelaInicial
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            APIPokemonTheme {
+            PokemonTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     val navController = rememberNavController()
 
